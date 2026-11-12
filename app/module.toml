@@ -44,6 +44,9 @@ scope = "TEST_IMPLEMENTATION"
 java = ["src/test/java", "src/test/kotlin"]
 resources = ["src/test/resources"]
 
+[dependencies]
+implementation = ["com.google.android.material:material:1.14.0", "com.google.code.gson:gson:2.13.2", "androidx.swiperefreshlayout:swiperefreshlayout:1.2.0"]
+
 [android]
 namespace = "com.fnovels"
 compileSdk = 36
